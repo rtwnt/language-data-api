@@ -13,6 +13,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <quarkus.agroal.version>2.4.1.Final</quarkus.agroal.version>
+    <quarkus.flyway.version>2.4.1.Final</quarkus.flyway.version>
     <quarkus.jdbc.postgresql.version>2.4.1.Final</quarkus.jdbc.postgresql.version>
     <quarkus.jooq.plugin.version>0.2.2</quarkus.jooq.plugin.version>
     <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
@@ -65,6 +66,11 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-jdbc-postgresql</artifactId>
       <version>${quarkus.jdbc.postgresql.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-flyway</artifactId>
+      <version>${quarkus.flyway.version}</version>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
